@@ -1,9 +1,5 @@
-window.onload = function () { 
-  const display = document.getElementById("display"); 
+const display = document.getElementById("display");
 
-  window.appendToDisplay = function (value) {
-    display.value += value;
-  };
 function appendToDisplay(input){
   if (input === 'pi') {
     display.value += Math.PI;
